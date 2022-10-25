@@ -10,7 +10,7 @@ export class PokedexService {
 
 
   getPokemons(): any {
-    return this.http.get('https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/pokedex.json').toPromise().then(res => {
+    return this.http.get('https://raw.githubusercontent.com/Maruan100/pokedex-app/main/src/assets/mock-data.json').toPromise().then(res => {
       return res
     });
   }
