@@ -1,0 +1,29 @@
+.bg {
+  background: url("../../../assets/back-ground.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.form {
+  background-color: #ffffff;
+  width: 555px;
+  min-height: 480px;
+  border-radius: 0.25rem;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  height: 45px;
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.form-btn {
+  padding-top: 30px;
+}

@@ -1,0 +1,27 @@
+<main class="container bg flex">
+  <form class="form" [formGroup]="logInForm">
+    <img class="logo" src="../../../assets/logo.png" alt="logo" />
+    <h1>Bienvenido/a</h1>
+    <p>Introduce tus credenciales para acceder</p>
+    <div class="form-fild">
+      <label class="form__label">Usuario</label>
+      <input class="form__input" type="text" formControlName="email" />
+    </div>
+
+    <div class="form-fild">
+      <label class="form__label">Contraseña</label>
+      <input class="form__input" type="password" formControlName="password" />
+    </div>
+
+    <div class="form-btn">
+      <button
+        class="btn btn-primary"
+        type="button"
+        [disabled]="logInForm.invalid"
+        (click)="logIn()"
+      >
+        Acceder
+      </button>
+    </div>
+  </form>
+</main>
